@@ -19,13 +19,22 @@
         <div>
             <fieldset>
                 <legend>Gender *</legend>
-                <label for="gender_male"><input type="radio" id="gender_male" name="gender" value="male" required> Male</label><br>
-                <label for="gender_female"><input type="radio" id="gender_female" name="gender" value="female" required> Female</label><br>
-                <label for="gender_other"><input type="radio" id="gender_other" name="gender" value="other" required> Other</label>
+                <div>
+                    <input type="radio" id="gender_male" name="gender" value="male" required>
+                    <label for="gender_male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="gender_female" name="gender" value="female" required>
+                    <label for="gender_female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" id="gender_other" name="gender" value="other" required>
+                    <label for="gender_other">Other</label>
+                </div>
             </fieldset>
         </div>
         <div>
-            <label for="laptop">Laptop Brands *</label>
+            <label for="laptop">Laptop Brands</label>
             <select id="laptop" name="laptop">
                 <option value="apple">Apple</option>
                 <option value="asus">Asus</option>
@@ -45,8 +54,8 @@
             <input type="password" id="password" name="password" required>
         </div>
         <div>
-            <label for="portfolio">Portfolio URL *</label>
-            <input type="url" id="portfolio" name="portfolio" >
+            <label for="portfolio">Portfolio URL</label>
+            <input type="url" id="portfolio" name="portfolio">
         </div>
         <div>
             <button type="submit">Submit</button>
